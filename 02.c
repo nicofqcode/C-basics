@@ -4,7 +4,7 @@ int main(){
     do
     {
         printf("%d \n", num)
-    } while (/* condition */);
+    } while ();
     
 
     return 0;
