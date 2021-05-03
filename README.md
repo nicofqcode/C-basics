@@ -1,7 +1,7 @@
 # Basics C examples
 
 ##  Keywords
-
+ | --- | --- | --- | --- |
  | auto      | double    | int       | struct
  | break     | else      | long      | switch
  | case      | enum      | register  | typedef
