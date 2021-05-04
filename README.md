@@ -1,6 +1,10 @@
 # Basics C examples
 
-##  Keywords
+This document records information about the C language along with basic examples.
+
+##  Starting 🚀
+
+###  Keywords
 | Keywords  |  |  |  |
 | --- | --- | --- | --- |
 | auto      | double    | int       | struct    |
@@ -13,7 +17,7 @@
 | do        | if        | static    | while     |
 | _Packed   |           |           |           |
 
-## Specifier
+### Specifier
 
 | Format specifier  | Description |  Supported data types |
 | --- | --- | --- | 
@@ -36,10 +40,10 @@
 | %Lf               | Floating point                            | long double |
 | %s                | a string                                  | char * |
 | %u                | int unsigned decimal                      | unsigned int, unsigned long |
-| %n                | prints nothing                            | 
-| %%                | Prints % character                        | 
+| %n                | prints nothing                            | - |
+| %%                | Prints % character                        | - |
 
-## Integer types
+### Integer types
 
 | Type | Storage size | Value range |  
 | --- | --- | --- |
@@ -70,7 +74,7 @@ UINT_MAX    :   4294967295
 ULONG_MAX   :   18446744073709551615
 USHRT_MAX   :   65535
 ```
-## Floating-point types
+### Floating-point types
 
 | Type  | Storage size | Value range | Precision |
 | --- | --- | --- | --- |
