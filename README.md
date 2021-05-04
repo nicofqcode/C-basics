@@ -94,12 +94,16 @@ DBL_MIN                 :   2.22507e-308
 Precision value         :   6
 ```
 ## Decision making
-```mermaid
-    graph TD;
-    A[Start] --> C(Go shopping)
-    C{Conditional}
-    C -->|Yes| D[IF]
-    C -->|No| E[ELSE]
-    D -->F[End]
-    E -->F
-``` 
+
+
+```flow
+st=>start: Start
+cond=>condition: Condition
+op=>operation: ELSE
+opp=>operation: IF
+e=>end: End
+
+st->cond->e
+cond(yes)->opp->e
+cond(no)->op->e
+```
