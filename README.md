@@ -95,6 +95,7 @@ Precision value         :   6
 ```
 ## Decision making
 
+![](img/01_flowchart.png)
 
 ```flow
 st=>start: Start
