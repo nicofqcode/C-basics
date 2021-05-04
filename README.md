@@ -16,7 +16,7 @@
 ## Specifier
 
 | Format specifier  | Description |  Supported data types |
-| --- | --- | 
+| --- | --- | --- | 
 | %c                | a single character                        | char, unsigned char |
 | %d                | Signed integer                            | short, unsigned short, int, long |
 | %e or %E          | Scientific notation of float values       | float, double |
@@ -38,10 +38,6 @@
 | %u                | int unsigned decimal                      | unsigned int, unsigned long |
 | %n                | prints nothing                            | 
 | %%                | Prints % character                        | 
-
-
-- int   --> %d
-- char  --> %c
 
 ## Integer types
 
