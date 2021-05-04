@@ -94,7 +94,7 @@ DBL_MIN                 :   2.22507e-308
 Precision value         :   6
 ```
 ## Decision making
-```flow
+```mermaid
 st=>start: Start
 cond=>condition: Condition
 op=>operation: ELSE
