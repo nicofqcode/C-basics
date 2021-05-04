@@ -93,3 +93,15 @@ DBL_MIN                 :   2.22507e-308
 -DBL_MAX                :   -1.79769e+308
 Precision value         :   6
 ```
+## Decision making
+```flow
+st=>start: Start
+cond=>condition: Condition
+op=>operation: ELSE
+opp=>operation: IF
+e=>end: End
+
+st->cond->e
+cond(yes)->opp->e
+cond(no)->op->e
+```
