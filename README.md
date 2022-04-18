@@ -93,18 +93,3 @@ DBL_MIN                 :   2.22507e-308
 -DBL_MAX                :   -1.79769e+308
 Precision value         :   6
 ```
-## Decision making
-### If Else
-| Type  | Markdown | 
-| --- | --- | 
-| ![](img/01_flowchart.png)         | ```flow <br>st=>start: Start<br>cond=>condition: Condition<br>op=>operation: ELSE<br>opp=>operation: IF<br>e=>end: End<br>st->cond->e<br>cond(yes)->opp->e<br>cond(no)->op->e<br>
-
-### While
-| Type  | Markdown | 
-| --- | --- | 
-| ![](img/02_flowchart.png)         | ```mermaid<br>stateDiagram-v2<br>Start --> Conditional<br>Conditional --> True: Yes<br>Conditional --> False: No<br>True --> Conditional<br>False --> End<br>
-
-### Do while
-| Type  | Markdown | 
-| --- | --- | 
-| ![](img/03_flowchart.png)         |```flow<br>st=>start: Start<br>sub2=>subroutine: Conditional code<br>op=>operation: Operation<br>cond=>condition: Conditional<br>e=>end: End<br>st->op->cond<br>cond(yes)->sub2<br>sub2(right)->op<br>cond(no, bottom)->e<br>
